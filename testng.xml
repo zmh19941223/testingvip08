@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/roy08/IdeaProjects/VIP08Auto/src/test/java/com/testing/class18/InterExcelDriven.java"><classes><class name="com.testing.class18.InterExcelDriven"><methods><include name="excelDriven"/></methods></class></classes></test></suite>
