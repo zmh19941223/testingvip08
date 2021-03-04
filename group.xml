@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="grouptest">
+        <groups>
+            <run>
+                <include name="roy"></include>
+                <exclude name="will"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.testing.class18.DemoNG">
+<!--                <methods>-->
+<!--                    <include name="demo1"/>-->
+<!--                    <include name="demo2"/>-->
+<!--                </methods>-->
+            </class>
+<!--            <class name="com.testing.class18.FirstTestNG"></class>-->
+        </classes>
+    </test>
+</suite>

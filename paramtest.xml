@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="baiduurl" value="https://www.51job.com"></parameter>
+    <parameter name="password" value="123456"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/roy08/IdeaProjects/VIP08Auto/src/test/java/com/testing/class18/TpshopTest.java">
+        <classes>
+            <class name="com.testing.class18.TpshopTest">
+                <methods>
+                    <include name="visitUrl"/>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/roy08/IdeaProjects/VIP08Auto/src/test/java/com/testing/class18/TpAdminTest.java">
+        <classes>
+            <class name="com.testing.class18.TpAdminTest">
+                <methods>
+                    <include name="visitAdmin"/>
+                    <include name="adminLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

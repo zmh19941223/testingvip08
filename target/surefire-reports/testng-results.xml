@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="983" started-at="2021-03-04T09:37:00Z" finished-at="2021-03-04T09:37:01Z">
+    <groups>
+      <group name="roy">
+        <method signature="DemoNG.demo1()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="demo1" class="com.testing.class18.DemoNG"/>
+      </group> <!-- roy -->
+    </groups>
+    <test name="grouptest" duration-ms="983" started-at="2021-03-04T09:37:00Z" finished-at="2021-03-04T09:37:01Z">
+      <class name="com.testing.class18.DemoNG">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="beforeClass" is-config="true" duration-ms="20" started-at="2021-03-04T09:37:00Z" finished-at="2021-03-04T09:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-03-04T09:37:00Z" finished-at="2021-03-04T09:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeGp()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="beforeGp" is-config="true" duration-ms="0" started-at="2021-03-04T09:37:00Z" finished-at="2021-03-04T09:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGp -->
+        <test-method status="PASS" signature="demo1()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="demo1" duration-ms="831" started-at="2021-03-04T09:37:01Z" finished-at="2021-03-04T09:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-04T09:37:01Z" finished-at="2021-03-04T09:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterGp()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="afterGp" is-config="true" duration-ms="0" started-at="2021-03-04T09:37:01Z" finished-at="2021-03-04T09:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testing.class18.DemoNG@83298d7]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-03-04T09:37:01Z" finished-at="2021-03-04T09:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testing.class18.DemoNG -->
+    </test> <!-- grouptest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

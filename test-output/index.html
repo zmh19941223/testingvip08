@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_Suite">
+              <span class="suite-name border-passed">Default Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_Suite">
+                    <span>C:\Users\roy08\AppData\Local\JetBrains\IntelliJIdea2020.1\temp-testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods passed suite-Default_Suite"> (hide)</a> <!-- hide-methods passed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods passed suite-Default_Suite"> (show)</a> <!-- show-methods passed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(3, , 输入用户名, input, //input[@name=&#039;username&#039;], admin, , , , , )">webTest(3, , 输入用户名, input, //input[@name='username'], admin, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(19, , 点击提交, click, //a[@id=&#039;submit&#039;], , , , , , )">webTest(19, , 点击提交, click, //a[@id='submit'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(9, , 点击添加商品, click, //div[@title=&#039;添加商品&#039;], , , , , , )">webTest(9, , 点击添加商品, click, //div[@title='添加商品'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(18, , 选择是否包邮, click, //*[@id=&#039;is_free_shipping_label_1&#039;], , , , , , )">webTest(18, , 选择是否包邮, click, //*[@id='is_free_shipping_label_1'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(15, , 选择商品类型3, selectByValue, //*[@id=&#039;cat_id_3&#039;], 374, , , , , )">webTest(15, , 选择商品类型3, selectByValue, //*[@id='cat_id_3'], 374, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(12, , 等待, halt, 1, , , , , , )">webTest(12, , 等待, halt, 1, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(10, , 输入商品名称, input, //input[@name=&#039;goods_name&#039;], 测试商品Roy, , , , , )">webTest(10, , 输入商品名称, input, //input[@name='goods_name'], 测试商品Roy, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(5, , 输入验证码, input, //*[@id=&#039;vertify&#039;], 1, , , , , )">webTest(5, , 输入验证码, input, //*[@id='vertify'], 1, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(2, , 访问商城后台, visitWeb, http://www.testingedu.com.cn:8000/Admin/Admin/login, , , , , , )">webTest(2, , 访问商城后台, visitWeb, http://www.testingedu.com.cn:8000/Admin/Admin/login, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(8, , 切换到工作Iframe, intoIframe, //iframe[@id=&#039;workspace&#039;], , , , , , )">webTest(8, , 切换到工作Iframe, intoIframe, //iframe[@id='workspace'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(11, , 选择商品类型, selectByValue, //*[@id=&#039;cat_id&#039;], 52, , , , , )">webTest(11, , 选择商品类型, selectByValue, //*[@id='cat_id'], 52, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(17, , 输入商店价格, input, //input[@name=&#039;market_price&#039;], 80, , , , , )">webTest(17, , 输入商店价格, input, //input[@name='market_price'], 80, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(13, , 选择商品类型2, selectByValue, //*[@id=&#039;cat_id_2&#039;], 54, , , , , )">webTest(13, , 选择商品类型2, selectByValue, //*[@id='cat_id_2'], 54, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(20, , 关闭浏览器, closeBrowser, , , , , , , )">webTest(20, , 关闭浏览器, closeBrowser, , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(7, , 点击商城菜单, click, //a[text()=&#039;商城&#039;], , , , , , )">webTest(7, , 点击商城菜单, click, //a[text()='商城'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(6, , 点击登录, click, //input[@name=&#039;submit&#039;], , , , , , )">webTest(6, , 点击登录, click, //input[@name='submit'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(4, , 输入密码, input, //input[@name=&#039;password&#039;], 123456, , , , , )">webTest(4, , 输入密码, input, //input[@name='password'], 123456, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(16, , 输入市场价格, input, //input[@name=&#039;shop_price&#039;], 50, , , , , )">webTest(16, , 输入市场价格, input, //input[@name='shop_price'], 50, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(14, , 等待, halt, 1, , , , , , )">webTest(14, , 等待, halt, 1, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.testing.class18.WebExcelDriven" hash-for-method="webTest(1, 商城后台添加商品, 打开浏览器, openBrowser, chrome, , , , , , )">webTest(1, 商城后台添加商品, 打开浏览器, openBrowser, chrome, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.class18.WebExcelDriven</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(3, , 输入用户名, input, //input[@name=&#039;username&#039;], admin, , , , , )">
+                  </a> <!-- webTest(3, , 输入用户名, input, //input[@name='username'], admin, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(3, , 输入用户名, input, //input[@name='username'], admin, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(19, , 点击提交, click, //a[@id=&#039;submit&#039;], , , , , , )">
+                  </a> <!-- webTest(19, , 点击提交, click, //a[@id='submit'], , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(19, , 点击提交, click, //a[@id='submit'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(9, , 点击添加商品, click, //div[@title=&#039;添加商品&#039;], , , , , , )">
+                  </a> <!-- webTest(9, , 点击添加商品, click, //div[@title='添加商品'], , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(9, , 点击添加商品, click, //div[@title='添加商品'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(18, , 选择是否包邮, click, //*[@id=&#039;is_free_shipping_label_1&#039;], , , , , , )">
+                  </a> <!-- webTest(18, , 选择是否包邮, click, //*[@id='is_free_shipping_label_1'], , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(18, , 选择是否包邮, click, //*[@id='is_free_shipping_label_1'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(15, , 选择商品类型3, selectByValue, //*[@id=&#039;cat_id_3&#039;], 374, , , , , )">
+                  </a> <!-- webTest(15, , 选择商品类型3, selectByValue, //*[@id='cat_id_3'], 374, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(15, , 选择商品类型3, selectByValue, //*[@id='cat_id_3'], 374, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(12, , 等待, halt, 1, , , , , , )">
+                  </a> <!-- webTest(12, , 等待, halt, 1, , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(12, , 等待, halt, 1, , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(10, , 输入商品名称, input, //input[@name=&#039;goods_name&#039;], 测试商品Roy, , , , , )">
+                  </a> <!-- webTest(10, , 输入商品名称, input, //input[@name='goods_name'], 测试商品Roy, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(10, , 输入商品名称, input, //input[@name='goods_name'], 测试商品Roy, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(5, , 输入验证码, input, //*[@id=&#039;vertify&#039;], 1, , , , , )">
+                  </a> <!-- webTest(5, , 输入验证码, input, //*[@id='vertify'], 1, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(5, , 输入验证码, input, //*[@id='vertify'], 1, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(2, , 访问商城后台, visitWeb, http://www.testingedu.com.cn:8000/Admin/Admin/login, , , , , , )">
+                  </a> <!-- webTest(2, , 访问商城后台, visitWeb, http://www.testingedu.com.cn:8000/Admin/Admin/login, , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(2, , 访问商城后台, visitWeb, http://www.testingedu.com.cn:8000/Admin/Admin/login, , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(8, , 切换到工作Iframe, intoIframe, //iframe[@id=&#039;workspace&#039;], , , , , , )">
+                  </a> <!-- webTest(8, , 切换到工作Iframe, intoIframe, //iframe[@id='workspace'], , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(8, , 切换到工作Iframe, intoIframe, //iframe[@id='workspace'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(11, , 选择商品类型, selectByValue, //*[@id=&#039;cat_id&#039;], 52, , , , , )">
+                  </a> <!-- webTest(11, , 选择商品类型, selectByValue, //*[@id='cat_id'], 52, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(11, , 选择商品类型, selectByValue, //*[@id='cat_id'], 52, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(17, , 输入商店价格, input, //input[@name=&#039;market_price&#039;], 80, , , , , )">
+                  </a> <!-- webTest(17, , 输入商店价格, input, //input[@name='market_price'], 80, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(17, , 输入商店价格, input, //input[@name='market_price'], 80, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(13, , 选择商品类型2, selectByValue, //*[@id=&#039;cat_id_2&#039;], 54, , , , , )">
+                  </a> <!-- webTest(13, , 选择商品类型2, selectByValue, //*[@id='cat_id_2'], 54, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(13, , 选择商品类型2, selectByValue, //*[@id='cat_id_2'], 54, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(20, , 关闭浏览器, closeBrowser, , , , , , , )">
+                  </a> <!-- webTest(20, , 关闭浏览器, closeBrowser, , , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(20, , 关闭浏览器, closeBrowser, , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(7, , 点击商城菜单, click, //a[text()=&#039;商城&#039;], , , , , , )">
+                  </a> <!-- webTest(7, , 点击商城菜单, click, //a[text()='商城'], , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(7, , 点击商城菜单, click, //a[text()='商城'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(6, , 点击登录, click, //input[@name=&#039;submit&#039;], , , , , , )">
+                  </a> <!-- webTest(6, , 点击登录, click, //input[@name='submit'], , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(6, , 点击登录, click, //input[@name='submit'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(4, , 输入密码, input, //input[@name=&#039;password&#039;], 123456, , , , , )">
+                  </a> <!-- webTest(4, , 输入密码, input, //input[@name='password'], 123456, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(4, , 输入密码, input, //input[@name='password'], 123456, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(16, , 输入市场价格, input, //input[@name=&#039;shop_price&#039;], 50, , , , , )">
+                  </a> <!-- webTest(16, , 输入市场价格, input, //input[@name='shop_price'], 50, , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(16, , 输入市场价格, input, //input[@name='shop_price'], 50, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(14, , 等待, halt, 1, , , , , , )">
+                  </a> <!-- webTest(14, , 等待, halt, 1, , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(14, , 等待, halt, 1, , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTest(1, 商城后台添加商品, 打开浏览器, openBrowser, chrome, , , , , , )">
+                  </a> <!-- webTest(1, 商城后台添加商品, 打开浏览器, openBrowser, chrome, , , , , , ) -->
+                  <span class="method-name">webTest</span>
+                  <span class="parameters">(1, 商城后台添加商品, 打开浏览器, openBrowser, chrome, , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+        </div> <!-- panel Default_Suite -->
+        <div panel-name="test-xml-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\roy08\AppData\Local\JetBrains\IntelliJIdea2020.1\temp-testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VIP08Auto&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testing.class18.WebExcelDriven&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VIP08Auto --&gt;
+&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">VIP08Auto (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_Suite');
+function tableData_Default_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'webTest')
+data.setCell(0, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(0, 3, 2832);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'webTest')
+data.setCell(1, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(1, 3, 1073);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'webTest')
+data.setCell(2, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(2, 3, 1042);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'webTest')
+data.setCell(3, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(3, 3, 1001);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'webTest')
+data.setCell(4, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(4, 3, 1001);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'webTest')
+data.setCell(5, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(5, 3, 891);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'webTest')
+data.setCell(6, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(6, 3, 553);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'webTest')
+data.setCell(7, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(7, 3, 319);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'webTest')
+data.setCell(8, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(8, 3, 202);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'webTest')
+data.setCell(9, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(9, 3, 155);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'webTest')
+data.setCell(10, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(10, 3, 135);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'webTest')
+data.setCell(11, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(11, 3, 130);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'webTest')
+data.setCell(12, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(12, 3, 123);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'webTest')
+data.setCell(13, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(13, 3, 114);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'webTest')
+data.setCell(14, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(14, 3, 106);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'webTest')
+data.setCell(15, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(15, 3, 104);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'webTest')
+data.setCell(16, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(16, 3, 88);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'webTest')
+data.setCell(17, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(17, 3, 86);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'webTest')
+data.setCell(18, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(18, 3, 69);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'webTest')
+data.setCell(19, 2, 'com.testing.class18.WebExcelDriven')
+data.setCell(19, 3, 45);
+window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Default_Suite">
+              </div> <!-- times-div-Default_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.class18.WebExcelDriven</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">webTest(1, 商城后台添加商品, 打开浏览器, openBrowser, chrome, , , , , , )</span>
+                <span class="method-start">1062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(2, , 访问商城后台, visitWeb, http://www.testingedu.com.cn:8000/Admin/Admin/login, , , , , , )</span>
+                <span class="method-start">3894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(3, , 输入用户名, input, //input[@name='username'], admin, , , , , )</span>
+                <span class="method-start">4937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(4, , 输入密码, input, //input[@name='password'], 123456, , , , , )</span>
+                <span class="method-start">5092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(5, , 输入验证码, input, //*[@id='vertify'], 1, , , , , )</span>
+                <span class="method-start">5222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(6, , 点击登录, click, //input[@name='submit'], , , , , , )</span>
+                <span class="method-start">5346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(7, , 点击商城菜单, click, //a[text()='商城'], , , , , , )</span>
+                <span class="method-start">6237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(8, , 切换到工作Iframe, intoIframe, //iframe[@id='workspace'], , , , , , )</span>
+                <span class="method-start">6556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(9, , 点击添加商品, click, //div[@title='添加商品'], , , , , , )</span>
+                <span class="method-start">6601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(10, , 输入商品名称, input, //input[@name='goods_name'], 测试商品Roy, , , , , )</span>
+                <span class="method-start">7154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(11, , 选择商品类型, selectByValue, //*[@id='cat_id'], 52, , , , , )</span>
+                <span class="method-start">7290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(12, , 等待, halt, 1, , , , , , )</span>
+                <span class="method-start">7379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(13, , 选择商品类型2, selectByValue, //*[@id='cat_id_2'], 54, , , , , )</span>
+                <span class="method-start">8381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(14, , 等待, halt, 1, , , , , , )</span>
+                <span class="method-start">8468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(15, , 选择商品类型3, selectByValue, //*[@id='cat_id_3'], 374, , , , , )</span>
+                <span class="method-start">9469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(16, , 输入市场价格, input, //input[@name='shop_price'], 50, , , , , )</span>
+                <span class="method-start">9538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(17, , 输入商店价格, input, //input[@name='market_price'], 80, , , , , )</span>
+                <span class="method-start">9642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(18, , 选择是否包邮, click, //*[@id='is_free_shipping_label_1'], , , , , , )</span>
+                <span class="method-start">9756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(19, , 点击提交, click, //a[@id='submit'], , , , , , )</span>
+                <span class="method-start">9863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTest(20, , 关闭浏览器, closeBrowser, , , , , , , )</span>
+                <span class="method-start">10067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">11209 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

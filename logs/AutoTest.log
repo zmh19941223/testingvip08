@@ -1,0 +1,16 @@
+17:51:30  [INFO ] : {"status":200,"msg":"success","token":"751e7fd61a824bc686f562fbf2ccbe1e"}
+17:51:31  [INFO ] : 解析结果是success
+17:51:31  [INFO ] : {"status":200,"msg":"注册成功"}
+17:51:31  [INFO ] : 解析结果是200
+17:51:31  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"8153"}
+17:51:31  [INFO ] : 解析结果是恭喜您，登录成功
+17:51:31  [INFO ] : {"status":200,"msg":"查询成功","nickname":"roy老师","id":"8153","describe":"sensei"}
+17:51:31  [INFO ] : 解析结果是查询成功
+17:51:31  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+17:51:31  [INFO ] : 解析结果是用户已退出登录
+17:51:31  [INFO ] : {"status":200,"msg":"success","token":"5094474656ea40dda14f867d5027cfc1"}
+17:51:31  [INFO ] : 解析结果是200
+17:51:31  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"8608"}
+17:51:31  [INFO ] : {"status":200,"msg":"success","token":"dbb1158b581e46bbb1ecd49353ccf013"}
+17:51:31  [INFO ] : 解析结果是200
+17:51:31  [INFO ] : {"status":402,"msg":"参数错误"}

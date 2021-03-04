@@ -1,0 +1,126 @@
+{
+  "uid" : "13157d07cb152c99",
+  "name" : "demo1",
+  "fullName" : "com.testing.class18.DemoNG.demo1",
+  "historyId" : "8b37568cd66cd37b56a6b4f372ffe31",
+  "time" : {
+    "start" : 1614850621062,
+    "stop" : 1614850621849,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1614850620927,
+      "stop" : 1614850620927,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1614850620910,
+      "stop" : 1614850620916,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1614850621857,
+      "stop" : 1614850621857,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1614850621859,
+      "stop" : 1614850621859,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.class18.DemoNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.class18.DemoNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "demo1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "grouptest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.class18.DemoNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ATQ3D2C"
+  }, {
+    "name" : "thread",
+    "value" : "14056@DESKTOP-ATQ3D2C.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13157d07cb152c99.json",
+  "parameterValues" : [ ]
+}

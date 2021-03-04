@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="10156" started-at="2021-03-02T14:46:27Z" finished-at="2021-03-02T14:46:38Z">
+    <groups>
+    </groups>
+    <test name="VIP08Auto" duration-ms="10156" started-at="2021-03-02T14:46:27Z" finished-at="2021-03-02T14:46:38Z">
+      <class name="com.testing.class18.WebExcelDriven">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="beforeSuite" is-config="true" duration-ms="1011" started-at="2021-03-02T14:46:26Z" finished-at="2021-03-02T14:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="2832" started-at="2021-03-02T14:46:27Z" data-provider="keywords" finished-at="2021-03-02T14:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[商城后台添加商品]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[打开浏览器]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[openBrowser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="1042" started-at="2021-03-02T14:46:30Z" data-provider="keywords" finished-at="2021-03-02T14:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[访问商城后台]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[visitWeb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.testingedu.com.cn:8000/Admin/Admin/login]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="155" started-at="2021-03-02T14:46:31Z" data-provider="keywords" finished-at="2021-03-02T14:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入用户名]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@name='username']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="130" started-at="2021-03-02T14:46:31Z" data-provider="keywords" finished-at="2021-03-02T14:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入密码]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@name='password']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="123" started-at="2021-03-02T14:46:32Z" data-provider="keywords" finished-at="2021-03-02T14:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入验证码]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id='vertify']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="891" started-at="2021-03-02T14:46:32Z" data-provider="keywords" finished-at="2021-03-02T14:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击登录]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@name='submit']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="319" started-at="2021-03-02T14:46:33Z" data-provider="keywords" finished-at="2021-03-02T14:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击商城菜单]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//a[text()='商城']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="45" started-at="2021-03-02T14:46:33Z" data-provider="keywords" finished-at="2021-03-02T14:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[切换到工作Iframe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[intoIframe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//iframe[@id='workspace']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="553" started-at="2021-03-02T14:46:33Z" data-provider="keywords" finished-at="2021-03-02T14:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击添加商品]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//div[@title='添加商品']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="135" started-at="2021-03-02T14:46:34Z" data-provider="keywords" finished-at="2021-03-02T14:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入商品名称]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@name='goods_name']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[测试商品Roy]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="88" started-at="2021-03-02T14:46:34Z" data-provider="keywords" finished-at="2021-03-02T14:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[选择商品类型]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectByValue]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id='cat_id']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="1001" started-at="2021-03-02T14:46:34Z" data-provider="keywords" finished-at="2021-03-02T14:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[等待]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[halt]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="86" started-at="2021-03-02T14:46:35Z" data-provider="keywords" finished-at="2021-03-02T14:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[选择商品类型2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectByValue]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id='cat_id_2']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="1001" started-at="2021-03-02T14:46:35Z" data-provider="keywords" finished-at="2021-03-02T14:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[等待]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[halt]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="69" started-at="2021-03-02T14:46:36Z" data-provider="keywords" finished-at="2021-03-02T14:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[选择商品类型3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectByValue]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id='cat_id_3']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[374]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="104" started-at="2021-03-02T14:46:36Z" data-provider="keywords" finished-at="2021-03-02T14:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入市场价格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@name='shop_price']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="114" started-at="2021-03-02T14:46:36Z" data-provider="keywords" finished-at="2021-03-02T14:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入商店价格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@name='market_price']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="106" started-at="2021-03-02T14:46:36Z" data-provider="keywords" finished-at="2021-03-02T14:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[选择是否包邮]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id='is_free_shipping_label_1']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="202" started-at="2021-03-02T14:46:36Z" data-provider="keywords" finished-at="2021-03-02T14:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击提交]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//a[@id='submit']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="webTest" duration-ms="1073" started-at="2021-03-02T14:46:36Z" data-provider="keywords" finished-at="2021-03-02T14:46:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[关闭浏览器]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[closeBrowser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testing.class18.WebExcelDriven@3f2a3a5]" name="afterSuite" is-config="true" duration-ms="124" started-at="2021-03-02T14:46:38Z" finished-at="2021-03-02T14:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testing.class18.WebExcelDriven -->
+    </test> <!-- VIP08Auto -->
+  </suite> <!-- Default Suite -->
+</testng-results>

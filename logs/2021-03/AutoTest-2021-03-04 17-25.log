@@ -1,0 +1,5 @@
+17:25:55  [INFO ] : {"status":200,"msg":"success","token":"10fc25bdc3a543f0bb02600db7727548"}
+17:25:55  [INFO ] : {"status":200,"msg":"注册成功"}
+17:25:55  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"22"}
+17:25:55  [INFO ] : {"status":200,"msg":"查询成功","nickname":"teacher","id":"22","describe":"tester"}
+17:25:55  [INFO ] : {"status":200,"msg":"用户已退出登录"}

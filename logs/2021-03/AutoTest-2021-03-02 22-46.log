@@ -1,0 +1,3 @@
+22:46:30  [INFO ] : chrome浏览器启动
+22:46:31  [INFO ] : 访问http://www.testingedu.com.cn:8000/Admin/Admin/login
+22:46:33  [INFO ] : 进入iframe成功！

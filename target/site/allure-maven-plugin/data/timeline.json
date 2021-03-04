@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-ATQ3D2C",
+    "children" : [ {
+      "name" : "14056@DESKTOP-ATQ3D2C.main(1)",
+      "children" : [ {
+        "name" : "demo1",
+        "uid" : "13157d07cb152c99",
+        "parentUid" : "8f5e15b8937fcbda0566dda8e9b48fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614850621062,
+          "stop" : 1614850621849,
+          "duration" : 787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f5e15b8937fcbda0566dda8e9b48fbd"
+    } ],
+    "uid" : "47b403a6ac7438290180d391d2c068f8"
+  } ]
+}

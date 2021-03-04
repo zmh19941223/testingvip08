@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RoyFirstSuite">   <!-- 执行 before Suite-->
+    <test verbose="2" preserve-order="true"
+          name="firsttest">  <!-- 执行 before Test -->
+        <classes>
+            <class name="com.testing.class18.DemoNG">  <!--执行 demoNG的beforeClass-->
+                <methods>
+                    <include name="demo1"/>  <!--执行 demoNG的beforeMethod-->
+                    <exclude name="demo2"/>
+                </methods>   <!-- 执行demoNg的afterMethod -->
+            </class>   <!--执行 demoNG的 after class -->
+            <!--     自闭的class元素，默认执行其中所有的@test方法       -->
+            <class name="com.testing.class18.FirstTestNG"/>  <!-- 执行FirstTesntNG的 befroe class 以及方法，最后执行after class-->
+        </classes>
+    </test>  <!-- after test 执行 -->
+    <test verbose="2" preserve-order="true"
+          name="secondTest">
+        <classes>
+            <class name="com.testing.class18.FirstTestNG">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="secondTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

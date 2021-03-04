@@ -1,0 +1,232 @@
+22:24:21  [INFO ] : C:\Users\roy08\IdeaProjects\VIP08Auto/Cases/InterCases.xlsx
+22:24:21  [INFO ] : C:\Users\roy08\IdeaProjects\VIP08Auto/Cases/Result/resultofInter-0225-222420
+22:24:22  [INFO ] : 当前sheet页的名字是：授权接口
+22:24:23  [INFO ] : {"status":200,"msg":"success","token":"58d1a2cd7f0b4023859310886309f672"}
+22:24:23  [INFO ] : 解析结果是200
+22:24:23  [INFO ] : {"status":200,"msg":"success","token":"eadb3e90fac54d54ae8225daf0363665"}
+22:24:23  [INFO ] : {"status":200,"msg":"success","token":"9a4e03032bd24e3b9cf629b1cf6e5365"}
+22:24:23  [INFO ] : {"status":200,"msg":"success","token":"61400589caf644a8b9a04f7ee4df8af5"}
+22:24:23  [INFO ] : 解析结果是200
+22:24:24  [INFO ] : {"status":201,"msg":"success"}
+22:24:24  [INFO ] : 解析结果是201
+22:24:24  [INFO ] : 当前sheet页的名字是：登录接口
+22:24:24  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:24  [INFO ] : 解析结果是非法请求
+22:24:24  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:24  [INFO ] : 解析结果是非法请求
+22:24:24  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:24  [INFO ] : 解析结果是非法请求
+22:24:24  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:24  [INFO ] : 解析结果是非法请求
+22:24:24  [INFO ] : {"status":200,"msg":"success","token":"79c649de81c843e2a579446abc19d361"}
+22:24:24  [INFO ] : 解析结果是200
+22:24:24  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+22:24:24  [INFO ] : 解析结果是200
+22:24:24  [INFO ] : {"status":406,"msg":"用户已经在别处登录"}
+22:24:24  [INFO ] : 解析结果是406
+22:24:24  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:24  [INFO ] : {"status":200,"msg":"success","token":"4b04643367764538a981e33175018a71"}
+22:24:24  [INFO ] : <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+22:24:25  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:25  [INFO ] : 解析结果是402
+22:24:25  [INFO ] : <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+22:24:25  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"10286"}
+22:24:25  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"10313"}
+22:24:25  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:25  [INFO ] : 解析结果是402
+22:24:25  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:25  [INFO ] : 解析结果是401
+22:24:25  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:25  [INFO ] : 解析结果是401
+22:24:25  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:25  [INFO ] : 解析结果是402
+22:24:25  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:25  [INFO ] : 解析结果是402
+22:24:25  [INFO ] : <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+22:24:25  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:25  [INFO ] : 解析结果是402
+22:24:25  [INFO ] : <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+22:24:26  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:26  [INFO ] : 解析结果是401
+22:24:26  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:26  [INFO ] : 解析结果是401
+22:24:26  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:26  [INFO ] : 解析结果是402
+22:24:26  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:26  [INFO ] : 解析结果是401
+22:24:26  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:26  [INFO ] : 解析结果是401
+22:24:26  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:26  [INFO ] : 解析结果是402
+22:24:26  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:26  [INFO ] : 解析结果是402
+22:24:26  [INFO ] : <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+22:24:26  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+22:24:26  [INFO ] : 解析结果是200
+22:24:26  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:26  [INFO ] : 解析结果是200
+22:24:26  [INFO ] : {"status":200,"msg":"success","token":"df6d7bc590964f2ba7745dc8061280dc"}
+22:24:26  [INFO ] : 解析结果是200
+22:24:27  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:27  [INFO ] : 解析结果是401
+22:24:27  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:27  [INFO ] : 解析结果是401
+22:24:27  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:27  [INFO ] : 解析结果是401
+22:24:27  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+22:24:27  [INFO ] : 解析结果是200
+22:24:27  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:27  [INFO ] : 解析结果是200
+22:24:27  [INFO ] : {"status":200,"msg":"success","token":"c4bc88ceaa9a49b48183454ddd0ec051"}
+22:24:27  [INFO ] : 解析结果是200
+22:24:27  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:27  [INFO ] : 解析结果是401
+22:24:27  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+22:24:27  [INFO ] : 解析结果是401
+22:24:27  [INFO ] : 当前sheet页的名字是：注册接口
+22:24:27  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:27  [INFO ] : 解析结果是405
+22:24:27  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:27  [INFO ] : 解析结果是非法请求
+22:24:27  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:27  [INFO ] : 解析结果是非法请求
+22:24:28  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:28  [INFO ] : 解析结果是非法请求
+22:24:28  [INFO ] : {"status":200,"msg":"success","token":"00273f1b431c4772827b77bdf6f9160f"}
+22:24:28  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:28  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+22:24:28  [INFO ] : 解析结果是200
+22:24:28  [INFO ] : {"status":406,"msg":"登录状态，不能注册"}
+22:24:28  [INFO ] : 解析结果是406
+22:24:28  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:28  [INFO ] : 解析结果是200
+22:24:28  [INFO ] : {"status":200,"msg":"success","token":"7aa984a6662141d8a921972750dd023e"}
+22:24:28  [INFO ] : 解析结果是200
+22:24:28  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:28  [INFO ] : 解析结果是402
+22:24:28  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:28  [INFO ] : 解析结果是402
+22:24:28  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:28  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:29  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:29  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"10313"}
+22:24:29  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:29  [INFO ] : 解析结果是200
+22:24:29  [INFO ] : {"status":200,"msg":"success","token":"0d238f3fa5f14270a5067920f8119eb0"}
+22:24:29  [INFO ] : 解析结果是200
+22:24:29  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:29  [INFO ] : 解析结果是402
+22:24:29  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:29  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:29  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:29  [INFO ] : 解析结果是402
+22:24:29  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:29  [INFO ] : 解析结果是402
+22:24:29  [INFO ] : {"status":200,"msg":"success","token":"d63b56602e53424fb38f5534ec93c9af"}
+22:24:29  [INFO ] : 解析结果是200
+22:24:29  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:29  [INFO ] : 解析结果是402
+22:24:29  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:29  [INFO ] : 解析结果是402
+22:24:30  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:30  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:30  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:30  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"10314"}
+22:24:30  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:30  [INFO ] : 解析结果是200
+22:24:30  [INFO ] : {"status":200,"msg":"success","token":"44f9166269794de181649f5b6b81636b"}
+22:24:30  [INFO ] : 解析结果是200
+22:24:30  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:30  [INFO ] : 解析结果是402
+22:24:30  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:30  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:30  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:30  [INFO ] : 解析结果是402
+22:24:30  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:30  [INFO ] : 解析结果是402
+22:24:30  [INFO ] : {"status":200,"msg":"success","token":"e4d53ac284dc4f52b6a56fe598bfdf58"}
+22:24:30  [INFO ] : 解析结果是200
+22:24:31  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:31  [INFO ] : 解析结果是402
+22:24:31  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:31  [INFO ] : 解析结果是402
+22:24:31  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:31  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:31  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:31  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"10315"}
+22:24:31  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:31  [INFO ] : 解析结果是200
+22:24:31  [INFO ] : {"status":200,"msg":"success","token":"f87de3d61cef4ce98031d16f8f6c99bf"}
+22:24:31  [INFO ] : 解析结果是200
+22:24:31  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:31  [INFO ] : 解析结果是402
+22:24:31  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:31  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:32  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:32  [INFO ] : 解析结果是402
+22:24:32  [INFO ] : {"status":402,"msg":"参数错误"}
+22:24:32  [INFO ] : 解析结果是402
+22:24:32  [INFO ] : 当前sheet页的名字是：注销接口
+22:24:32  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:32  [INFO ] : 解析结果是405
+22:24:32  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:32  [INFO ] : 解析结果是非法请求
+22:24:32  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:32  [INFO ] : 解析结果是非法请求
+22:24:32  [INFO ] : {"status":405,"msg":"非法请求"}
+22:24:32  [INFO ] : 解析结果是非法请求
+22:24:32  [INFO ] : {"status":200,"msg":"success","token":"df73759e9268458ea6dfbf1f3955af31"}
+22:24:32  [INFO ] : 解析结果是200
+22:24:32  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:32  [INFO ] : 解析结果是200
+22:24:32  [INFO ] : {"status":200,"msg":"success","token":"912c823e5a36492eab563b88e8875c7d"}
+22:24:32  [INFO ] : 解析结果是200
+22:24:32  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+22:24:32  [INFO ] : 解析结果是200
+22:24:32  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:32  [INFO ] : 解析结果是200
+22:24:32  [INFO ] : 当前sheet页的名字是：正常流程冒烟
+22:24:33  [INFO ] : {"status":200,"msg":"success","token":"bce1a81f65594176914ba712ae32d7e0"}
+22:24:33  [INFO ] : 解析结果是200
+22:24:33  [INFO ] : {"status":401,"msg":"用户已被注册"}
+22:24:33  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"10312"}
+22:24:33  [INFO ] : 解析结果是恭喜您，登录成功
+22:24:33  [INFO ] : {"status":200,"msg":"查询成功","nickname":"测试账号","id":"10312","describe":"这个账号，是一个测试注册的账号"}
+22:24:33  [INFO ] : 解析结果是查询成功
+22:24:33  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+22:24:33  [INFO ] : 解析结果是用户已退出登录

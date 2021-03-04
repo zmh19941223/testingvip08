@@ -1,0 +1,11 @@
+15:24:25  [INFO ] : --------------------------------------------下面是Cookie-----------------------
+15:24:25  [INFO ] : --------------------------------------------结束-----------------------
+15:24:25  [INFO ] : {"status":1,"msg":"\u767b\u9646\u6210\u529f","result":{"user_id":8,"email":"","password":"519475228fe35ad067744465c42a19b2","paypwd":"519475228fe35ad067744465c42a19b2","sex":0,"birthday":886780800,"user_money":"0.00","frozen_money":"0.00","distribut_money":"0.00","underling_number":0,"pay_points":100,"address_id":0,"reg_time":1523857661,"last_login":0,"last_ip":"","qq":"","mobile":"13800138006","mobile_validated":1,"oauth":"","openid":null,"unionid":null,"head_pic":"\/public\/upload\/user\/8\/head_pic\/\/8a2fa265b33b50f991e4ca86c58cb0b7.jpg","province":0,"city":0,"district":0,"email_validated":0,"nickname":"\u5bd2\u51b0\u604b\u96ea222","level":5,"discount":"0.95","total_amount":"11893.00","is_lock":0,"is_distribut":0,"first_leader":3,"second_leader":0,"third_leader":0,"token":"","message_mask":63,"push_id":"190e35f7e07c8658ec6","distribut_level":0,"is_vip":0,"level_name":"\u5c0a\u8d35\u94c2\u91d1"},"url":""}
+15:24:25  [INFO ] :     <!--为空时-s-->
+    <div class="empty-c">
+        <span class="ma"><i class="c-i oh"></i>亲，购物车中没有商品哟~</span>
+    </div>
+    <!--为空时-e-->
+    <script>
+    $(".cart_quantity").text('0'); // 购物车的总数量
+</script>

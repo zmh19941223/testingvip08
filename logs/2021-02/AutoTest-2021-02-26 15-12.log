@@ -1,0 +1,66 @@
+15:12:22  [INFO ] : cookie的键是Set-Cookiecookie的值是is_mobile=0; expires=Fri, 26-Feb-2021 08:12:21 GMT; Max-Age=3600; path=/
+15:12:22  [INFO ] : cookie的键是Set-Cookiecookie的值是PHPSESSID=guq5f6khnv0ks0gjkg28anee17; path=/
+15:12:22  [INFO ] : cookie的键是Set-Cookiecookie的值是cn=0; path=/
+15:12:22  [INFO ] : 返回结果是    <!--为空时-s-->
+    <div class="empty-c">
+        <span class="ma"><i class="c-i oh"></i>亲，购物车中没有商品哟~</span>
+    </div>
+    <!--为空时-e-->
+    <script>
+    $(".cart_quantity").text('0'); // 购物车的总数量
+</script>
+15:12:22  [INFO ] : 登录的结果是：{"status":1,"msg":"登陆成功","result":{"user_id":8,"email":"","password":"519475228fe35ad067744465c42a19b2","paypwd":"519475228fe35ad067744465c42a19b2","sex":0,"birthday":886780800,"user_money":"0.00","frozen_money":"0.00","distribut_money":"0.00","underling_number":0,"pay_points":100,"address_id":0,"reg_time":1523857661,"last_login":0,"last_ip":"","qq":"","mobile":"13800138006","mobile_validated":1,"oauth":"","openid":null,"unionid":null,"head_pic":"\/public\/upload\/user\/8\/head_pic\/\/8a2fa265b33b50f991e4ca86c58cb0b7.jpg","province":0,"city":0,"district":0,"email_validated":0,"nickname":"寒冰恋雪222","level":5,"discount":"0.95","total_amount":"11893.00","is_lock":0,"is_distribut":0,"first_leader":3,"second_leader":0,"third_leader":0,"token":"","message_mask":63,"push_id":"190e35f7e07c8658ec6","distribut_level":0,"is_vip":0,"level_name":"尊贵铂金"},"url":""}
+15:12:22  [INFO ] : cookie的键是Set-Cookiecookie的值是is_mobile=0; expires=Fri, 26-Feb-2021 08:12:21 GMT; Max-Age=3600; path=/
+15:12:22  [INFO ] : cookie的键是Set-Cookiecookie的值是cn=2; path=/
+15:12:22  [INFO ] : 返回结果是    <!--现有商品时-->
+    <div class="mn-c-m">
+        <div class="mn-c-box">
+
+                            <div class="c-store">
+                    <div class="c-store-tt">2021-02-26 10:35:24</div>
+                    <div class="c-sale-b" style="display:none">  <!-- 临时屏蔽 -->
+                        <span class="i">[满减]</span>满299元减50元
+                    </div>
+                    <div class="c-item clearfix">
+                        <a href="javascript:void(0);" class="del js_delete"
+                           onclick="header_cart_del(136),ajax_side_cart_list();">×</a>
+                        <a href="/index.php/Home/Goods/goodsInfo/id/79.html" class="goods-pic fl">
+                            <img src="/public/upload/goods/thumb/79/goods_thumb_79_0_50_50.png" alt="" title="【新品上市】Samsung/三星 Galaxy S9 SM-G9600/DS 全网通 4G手机">
+                        </a>
+                        <div class="goods-cont fl">
+                            <a href="/index.php/Home/Goods/goodsInfo/id/79.html" class="goods-name">【新品上市】Samsung/三星 Galaxy S9 SM-G9600/DS 全网通 4G手机</a>
+                            <p class="num fl"> * 1件</p>
+                            <p class="red fr">￥2849.05</p>
+                        </div>
+                    </div>
+                </div>
+                            <div class="c-store">
+                    <div class="c-store-tt">2021-02-26 10:37:54</div>
+                    <div class="c-sale-b" style="display:none">  <!-- 临时屏蔽 -->
+                        <span class="i">[满减]</span>满299元减50元
+                    </div>
+                    <div class="c-item clearfix">
+                        <a href="javascript:void(0);" class="del js_delete"
+                           onclick="header_cart_del(137),ajax_side_cart_list();">×</a>
+                        <a href="/index.php/Home/Goods/goodsInfo/id/13.html" class="goods-pic fl">
+                            <img src="/public/upload/goods/thumb/13/goods_thumb_13_0_50_50.png" alt="" title="【套餐赠耳机】HUAWEI/华为 畅享8 Plus 全面屏手机">
+                        </a>
+                        <div class="goods-cont fl">
+                            <a href="/index.php/Home/Goods/goodsInfo/id/13.html" class="goods-name">【套餐赠耳机】HUAWEI/华为 畅享8 Plus 全面屏手机</a>
+                            <p class="num fl"> * 1件</p>
+                            <p class="red fr">￥1614.05</p>
+                        </div>
+                    </div>
+                </div>
+                        <div class="mn-c-total">
+                <div class="c-t">
+                    <p class="t-n fl"><span class="red" id="total_qty">2</span>件</p>
+                    <p class="t-p red fr"><em>￥</em><span id="total_pay">4463.1</span></p>
+                </div>
+                <a href="/index.php/Home/Cart/index.html" class="c-btn">去购物车结算 &gt;&gt;</a>
+            </div>
+        </div>
+        <!--现有商品时-->
+<script>
+    $(".cart_quantity").text('2'); // 购物车的总数量
+</script>

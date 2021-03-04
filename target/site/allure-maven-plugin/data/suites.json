@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "grouptest",
+      "children" : [ {
+        "name" : "com.testing.class18.DemoNG",
+        "children" : [ {
+          "name" : "demo1",
+          "uid" : "13157d07cb152c99",
+          "parentUid" : "ae0dbe026272068bf6fa8866c2f1faf0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614850621062,
+            "stop" : 1614850621849,
+            "duration" : 787
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ae0dbe026272068bf6fa8866c2f1faf0"
+      } ],
+      "uid" : "fd255d5c95704a840d6055d317a75abc"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}
